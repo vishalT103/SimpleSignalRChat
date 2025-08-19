@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>SimpleSignalRChat</PackageId>
+    <Title>SignalRChatWrapper</Title>
+    <Version>1.0.0</Version>
+    <Authors>Vishal thanvi</Authors>
+    <Company>vtech.io</Company>
+    <Description>Simple SignalR wrapper for chat functionality</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="simplesignalrchat.client\SimpleSignalRChat.Server.csproj" />
+    <None Include="simplesignalrchat.server\SimpleSignalRChat.Client.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="9.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="9.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>
