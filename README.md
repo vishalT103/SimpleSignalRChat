@@ -1,4 +1,4 @@
-📦 MySignalRChat NuGet Package
+# 📦 MySignalRChat NuGet Package
 
 A simple wrapper around SignalR for real-time chat communication.
 Supports:
