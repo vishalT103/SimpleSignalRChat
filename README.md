@@ -1,6 +1,3 @@
-Got it 👍 — here’s the same thing written in **your style**, like the doc you drafted earlier:
-
----
 
 # 📦 MySignalRChat NuGet Packages
 
